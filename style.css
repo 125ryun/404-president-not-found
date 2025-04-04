@@ -71,12 +71,13 @@ button:hover {
 
 #credit {
   color: #808080;
-  background-color: #fff;
+  background-color: transparent;
+  background-blend-mode: color;
 }
 
 #plz-vote {
-  color: #808080;
-  background-color: #fff;
+  color: #444444;
+  background-color: transparent;
   text-decoration: underline;
 }
 
