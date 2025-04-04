@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+
+button {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  font-size: 0.8rem;
+  color: #fff;
+  background-color: #808080;
+  border: none;
+  text-decoration: none;
+  text-align: center;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #444444; /* 호버 시 버튼 색상 변경 */
+}
+
+.centered-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    flex-direction: column;
+    font-family: 'Noto Sans', sans-serif;
+    color: #444444;
+}
+
+.error-number {
+    font-size: 8rem;
+    font-weight:bold;
+    color: #808080;
+}
+
+.error-message {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.description {
+    font-size: 1rem;
+    line-height: 1.8; /* 행 간격 */
+    margin: 1rem;
+}
+
+.credit-button {
+  bottom: 1rem;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+#credit {
+  color: #808080;
+  background-color: #fff;
+}
+
+#plz-vote {
+  color: #808080;
+  background-color: #fff;
+  text-decoration: underline;
+}
+
+.plzvote-text {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 1rem;
+}
+
+.back-link-button {
+  position: fixed;
+  top: 1rem;
+  left: 1rem;
+  z-index: 1000;
+}
+
+.info-link-button {
+  margin: 0.6rem;
+}
+
+.info-link-button button {
+  padding: 1rem 1rem;
+  font-size: 1.5rem;
+  width: 280px;
+}
+
+#court {
+  background-color: #911B2B;
+}
+
+#mbc {
+  background-color: #6606d3;
+}
+
+#yeonhap {
+  background-color: #0068D1;
+}
